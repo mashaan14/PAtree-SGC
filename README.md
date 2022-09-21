@@ -13,6 +13,5 @@ Run the following commands to ensure a smooth run for the code:
 
 ---
 written by Mashaan Alshammari<br/>
-mashaan14 at gmail dot com<br/>
 mashaan dot awad at outlook dot com<br/>
 September 21, 2022.
