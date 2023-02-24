@@ -8,7 +8,7 @@ This is an implementation for the following paper:
   author = {Alshammari, Mashaan and Stavrakakis, John and Ahmed, Adel F. and Takatsuka, Masahiro},
   title = {Graph Construction using Principal Axis Trees for Simple Graph Convolution},
   publisher = {arXiv},
-  year = {2023},
+  year = {2023}
 }
 ```
 
