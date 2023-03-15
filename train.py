@@ -51,7 +51,7 @@ set_seed(args.seed, args.cuda)
 
 for runs in range(10):
 
-    adj, features, labels, idx_train, idx_val, idx_test, numofedges = load_dataset(args.dataset, args.normalization, args.seed, flag_knn=False, flag_plot=False)
+    adj, features, labels, idx_train, idx_val, idx_test, numofedges = load_dataset(args.dataset, args.normalization, args.seed, flag_knn=False, flag_plot=False, NumOfTrees=10)
 
     model = get_model(args.model, features.size(1), labels.max().item()+1, args.hidden, args.dropout, args.cuda)
 
