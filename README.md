@@ -26,6 +26,5 @@ Run the following commands to ensure a smooth run for the code:
 - `conda install -c conda-forge hyperopt`
 
 ---
-written by Mashaan Alshammari<br/>
-mashaan dot awad at outlook dot com<br/>
+written by [Mashaan Alshammari](https://mashaan14.github.io/mashaan/)<br/>
 September 21, 2022.
