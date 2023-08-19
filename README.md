@@ -24,7 +24,3 @@ Run the following commands to ensure a smooth run for the code:
 - `conda install -c anaconda scikit-learn`
 - `conda install -c anaconda networkx=2.6.3`
 - `conda install -c conda-forge hyperopt`
-
----
-written by [Mashaan Alshammari](https://mashaan14.github.io/mashaan/)<br/>
-September 21, 2022.
