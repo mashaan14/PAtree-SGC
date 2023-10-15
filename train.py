@@ -8,7 +8,7 @@ from metrics import accuracy
 
 # # Args SGC
 # parser = argparse.ArgumentParser()
-# parser.add_argument('--dataset', type=str, default="sparse622", choices=['sparse622', 'smile266', 'ring238', 'Agg788',
+# parser.add_argument('--dataset', type=str, default="sparse622", choices=['sparse622', 'smile266', 'Comp399', 'Agg788',
 #                                                                         'iris', 'wine', 'BC-Wisc', 'digits',
 #                                                                         'Olivetti', 'PenDigits', 'mGamma', 'CreditCard'], help='Dataset to use.')
 # parser.add_argument('--no-cuda', action='store_true', default=False, help='Disables CUDA training.')
@@ -27,7 +27,7 @@ from metrics import accuracy
 
 # Args GCN
 parser = argparse.ArgumentParser()
-parser.add_argument('--dataset', type=str, default="sparse622", choices=['sparse622', 'smile266', 'ring238', 'Agg788',
+parser.add_argument('--dataset', type=str, default="sparse622", choices=['sparse622', 'smile266', 'Comp399', 'Agg788',
                                                                         'iris', 'wine', 'BC-Wisc', 'digits',
                                                                         'Olivetti', 'PenDigits', 'mGamma', 'CreditCard'], help='Dataset to use.')
 parser.add_argument('--no-cuda', action='store_true', default=False, help='Disables CUDA training.')
