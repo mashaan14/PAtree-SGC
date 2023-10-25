@@ -18,7 +18,7 @@ This is an implementation for the following paper:
 ```
 
 ## Dependencies
-The code was run in an Anaconda environment, with these packages installed:
+We used Anaconda environment to run the code, with these packages installed:
 - `conda install -c pytorch pytorch`
 - `conda install -c anaconda scipy`
 - `conda install -c anaconda scikit-learn`
