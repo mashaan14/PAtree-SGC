@@ -37,25 +37,12 @@ def load_dataset(dataset_str):
         y = np.genfromtxt('data/Agg788_Labels.csv', delimiter=",")
     elif dataset_str == 'sparse622':
         features = np.genfromtxt('data/sparse622_Instances.csv', delimiter=",")
-        y = np.genfromtxt('data/sparse622_Labels.csv', delimiter=",")
-    elif dataset_str == 'Olivetti':
-        data = skdatasets.fetch_olivetti_faces()
-        features = data.data
-        y = data.target
-    elif dataset_str == 'PenDigits':
-        features = np.genfromtxt('data/PenDigits_Instances.csv', delimiter=",")
-        y = np.genfromtxt('data/PenDigits_Labels.csv', delimiter=",")
-    elif dataset_str == 'mGamma':
-        features = np.genfromtxt('data/mGamma_Instances.csv', delimiter=",")
-        y = np.genfromtxt('data/mGamma_Labels.csv', delimiter=",")
-    elif dataset_str == 'CreditCard':
-        features = np.genfromtxt('data/CreditCard_Instances.csv', delimiter=",")
-        y = np.genfromtxt('data/CreditCard_Labels.csv', delimiter=",")        
+        y = np.genfromtxt('data/sparse622_Labels.csv', delimiter=",")     
 
     return features, y
 
 seed = 42
-datasets = ['Olivetti', 'PenDigits', 'mGamma', 'CreditCard']
+datasets = ['smile266', 'Comp399', 'sparse622', 'Agg788', 'iris', 'wine', 'BC-Wisc', 'digits']
 names = [
     "Nearest Neighbors",
     "RBF SVM",
