@@ -9,11 +9,11 @@
 This is an implementation for the following paper:
 ```bibtex
 @misc{https://doi.org/10.48550/arxiv.2302.12000,
-  url =       {https://arxiv.org/abs/2302.12000},
-  author =    {Alshammari, Mashaan and Stavrakakis, John and Ahmed, Adel F. and Takatsuka, Masahiro},
-  title =     {Graph Construction using Principal Axis Trees for Simple Graph Convolution},
-  publisher = {arXiv},
-  year =      {2023}
+  url        = {https://arxiv.org/abs/2302.12000},
+  author     = {Alshammari, Mashaan and Stavrakakis, John and Ahmed, Adel F. and Takatsuka, Masahiro},
+  title      = {Graph Construction using Principal Axis Trees for Simple Graph Convolution},
+  publisher  = {arXiv},
+  year       = {2023}
 }
 ```
 
